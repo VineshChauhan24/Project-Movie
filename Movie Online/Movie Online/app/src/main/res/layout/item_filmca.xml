@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/s8dp">
+
+    <ImageView
+        android:id="@+id/iv_thuml"
+        android:layout_width="@dimen/s80dp"
+        android:layout_height="@dimen/s100dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_name_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/s8dp"
+        android:text="name film"
+        android:textColor="@color/text_olor"
+        android:textSize="@dimen/s18sp" />
+</LinearLayout>
